@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/imagenes/edificio.jpg)  ;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+    color: #345;
+    text-align: center;
+    letter-spacing: 2;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.);
+    
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
